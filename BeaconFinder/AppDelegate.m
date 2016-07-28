@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import <EstimoteSDK/EstimoteSDK.h>
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [ESTConfig setupAppID:@"beaconfinder-hiw" andAppToken:@"ce2a87d72f9b04b5212956094acc7eba"];
+    
     return YES;
 }
 

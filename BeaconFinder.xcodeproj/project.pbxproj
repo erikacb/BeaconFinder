@@ -15,6 +15,14 @@
 		E8623A151D49AD000032E88D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8623A131D49AD000032E88D /* LaunchScreen.storyboard */; };
 		E8623A201D49AD010032E88D /* BeaconFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8623A1F1D49AD010032E88D /* BeaconFinderTests.m */; };
 		E8623A2B1D49AD010032E88D /* BeaconFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8623A2A1D49AD010032E88D /* BeaconFinderUITests.m */; };
+		E8623A391D49AFAD0032E88D /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8623A381D49AFAD0032E88D /* EstimoteSDK.framework */; };
+		E8623A491D49C3830032E88D /* BeaconDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = E8623A3C1D49C3830032E88D /* BeaconDetails.m */; };
+		E8623A4A1D49C3830032E88D /* BeaconDetailsCloudFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E8623A3E1D49C3830032E88D /* BeaconDetailsCloudFactory.m */; };
+		E8623A4B1D49C3830032E88D /* BeaconDetailsStaticFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E8623A401D49C3830032E88D /* BeaconDetailsStaticFactory.m */; };
+		E8623A4C1D49C3830032E88D /* BeaconID.m in Sources */ = {isa = PBXBuildFile; fileRef = E8623A421D49C3830032E88D /* BeaconID.m */; };
+		E8623A4D1D49C3830032E88D /* CachingContentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E8623A441D49C3830032E88D /* CachingContentFactory.m */; };
+		E8623A4E1D49C3830032E88D /* NearestBeaconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8623A461D49C3830032E88D /* NearestBeaconManager.m */; };
+		E8623A4F1D49C3830032E88D /* ProximityContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8623A481D49C3830032E88D /* ProximityContentManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		E8623A261D49AD010032E88D /* BeaconFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8623A2A1D49AD010032E88D /* BeaconFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconFinderUITests.m; sourceTree = "<group>"; };
 		E8623A2C1D49AD010032E88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8623A381D49AFAD0032E88D /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EstimoteSDK.framework; sourceTree = "<group>"; };
+		E8623A3A1D49C3830032E88D /* BeaconContentFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconContentFactory.h; sourceTree = "<group>"; };
+		E8623A3B1D49C3830032E88D /* BeaconDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetails.h; sourceTree = "<group>"; };
+		E8623A3C1D49C3830032E88D /* BeaconDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetails.m; sourceTree = "<group>"; };
+		E8623A3D1D49C3830032E88D /* BeaconDetailsCloudFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsCloudFactory.h; sourceTree = "<group>"; };
+		E8623A3E1D49C3830032E88D /* BeaconDetailsCloudFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsCloudFactory.m; sourceTree = "<group>"; };
+		E8623A3F1D49C3830032E88D /* BeaconDetailsStaticFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDetailsStaticFactory.h; sourceTree = "<group>"; };
+		E8623A401D49C3830032E88D /* BeaconDetailsStaticFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDetailsStaticFactory.m; sourceTree = "<group>"; };
+		E8623A411D49C3830032E88D /* BeaconID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconID.h; sourceTree = "<group>"; };
+		E8623A421D49C3830032E88D /* BeaconID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconID.m; sourceTree = "<group>"; };
+		E8623A431D49C3830032E88D /* CachingContentFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachingContentFactory.h; sourceTree = "<group>"; };
+		E8623A441D49C3830032E88D /* CachingContentFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachingContentFactory.m; sourceTree = "<group>"; };
+		E8623A451D49C3830032E88D /* NearestBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearestBeaconManager.h; sourceTree = "<group>"; };
+		E8623A461D49C3830032E88D /* NearestBeaconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearestBeaconManager.m; sourceTree = "<group>"; };
+		E8623A471D49C3830032E88D /* ProximityContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximityContentManager.h; sourceTree = "<group>"; };
+		E8623A481D49C3830032E88D /* ProximityContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximityContentManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8623A391D49AFAD0032E88D /* EstimoteSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +126,7 @@
 		E8623A041D49AD000032E88D /* BeaconFinder */ = {
 			isa = PBXGroup;
 			children = (
+				E8623A501D49C3900032E88D /* Estimote */,
 				E8623A081D49AD000032E88D /* AppDelegate.h */,
 				E8623A091D49AD000032E88D /* AppDelegate.m */,
 				E8623A0B1D49AD000032E88D /* ViewController.h */,
@@ -138,6 +164,29 @@
 				E8623A2C1D49AD010032E88D /* Info.plist */,
 			);
 			path = BeaconFinderUITests;
+			sourceTree = "<group>";
+		};
+		E8623A501D49C3900032E88D /* Estimote */ = {
+			isa = PBXGroup;
+			children = (
+				E8623A3A1D49C3830032E88D /* BeaconContentFactory.h */,
+				E8623A3B1D49C3830032E88D /* BeaconDetails.h */,
+				E8623A3C1D49C3830032E88D /* BeaconDetails.m */,
+				E8623A3D1D49C3830032E88D /* BeaconDetailsCloudFactory.h */,
+				E8623A3E1D49C3830032E88D /* BeaconDetailsCloudFactory.m */,
+				E8623A3F1D49C3830032E88D /* BeaconDetailsStaticFactory.h */,
+				E8623A401D49C3830032E88D /* BeaconDetailsStaticFactory.m */,
+				E8623A411D49C3830032E88D /* BeaconID.h */,
+				E8623A421D49C3830032E88D /* BeaconID.m */,
+				E8623A431D49C3830032E88D /* CachingContentFactory.h */,
+				E8623A441D49C3830032E88D /* CachingContentFactory.m */,
+				E8623A451D49C3830032E88D /* NearestBeaconManager.h */,
+				E8623A461D49C3830032E88D /* NearestBeaconManager.m */,
+				E8623A471D49C3830032E88D /* ProximityContentManager.h */,
+				E8623A481D49C3830032E88D /* ProximityContentManager.m */,
+				E8623A381D49AFAD0032E88D /* EstimoteSDK.framework */,
+			);
+			name = Estimote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +256,7 @@
 				TargetAttributes = {
 					E8623A011D49AD000032E88D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N7P3U577LW;
 					};
 					E8623A1A1D49AD010032E88D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -270,9 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8623A491D49C3830032E88D /* BeaconDetails.m in Sources */,
 				E8623A0D1D49AD000032E88D /* ViewController.m in Sources */,
+				E8623A4D1D49C3830032E88D /* CachingContentFactory.m in Sources */,
 				E8623A0A1D49AD000032E88D /* AppDelegate.m in Sources */,
+				E8623A4E1D49C3830032E88D /* NearestBeaconManager.m in Sources */,
+				E8623A4B1D49C3830032E88D /* BeaconDetailsStaticFactory.m in Sources */,
+				E8623A4C1D49C3830032E88D /* BeaconID.m in Sources */,
+				E8623A4F1D49C3830032E88D /* ProximityContentManager.m in Sources */,
 				E8623A071D49AD000032E88D /* main.m in Sources */,
+				E8623A4A1D49C3830032E88D /* BeaconDetailsCloudFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +470,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeaconFinder",
+				);
 				INFOPLIST_FILE = BeaconFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.kinha.BeaconFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +488,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeaconFinder",
+				);
 				INFOPLIST_FILE = BeaconFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.kinha.BeaconFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
